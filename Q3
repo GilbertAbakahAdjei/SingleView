@@ -1,0 +1,8 @@
+=========DATA GROWTH =========
+If the data is to increase in volume, solutions like 
+APACHE SPARK and DASK would be used to process the data,
+and a workflow manager like AIRFLOW/PREFECT would be used.
+
+Additionally in production a scalable webserver like NGINX
+would be used to serve the app to ensure consistency and
+reverse proxy and load balancing when requests increase in number.
